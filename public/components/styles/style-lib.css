@@ -1,0 +1,221 @@
+
+
+/* Konstantin's styles*/
+body {
+  background-color: #333;
+  margin: 0;
+  padding: 0;
+}
+h2 {
+  font-size: 20px;
+  color:#555;
+}
+.exit, .exit:hover {
+  text-decoration: none;
+}
+.exit h2:hover {
+  color:orange;
+}
+.center {
+  text-align: center;
+}
+.title{
+  text-decoration: none;
+  color:orange;
+}
+.inputfile {
+	width: 0.1px;
+	height: 0.1px;
+	opacity: 0;
+	overflow: hidden;
+	position: absolute;
+	z-index: -1;
+}
+
+.library {
+  background-color: #171717;
+}
+.console {
+  float: left;
+}
+.menu {
+  z-index: 0;
+  left: 52px;
+  position: absolute;
+  float: left;
+  color: #222;
+  padding-top: 0;
+  font-size: 18px;
+
+  padding-left: 10px;
+  padding-right: 10px;
+  margin-top: 50px;
+  height: 500px;
+  width: 500px;
+  background-color: #171717;
+  transition: all 2s;
+  --webkit-transition: all 2s;
+  --moz-transition: all 2s;
+}
+.menu p{
+  float: right;
+  height: 500px;
+  padding-top: 5px;
+  padding-left: 10px;
+  border-left: 1px solid #222;
+}
+.menu:hover {
+  color: orange;
+  width: 500px;
+  left: 516px;
+  transition: all 2s;
+  --webkit-transition: all 2s;
+  --moz-transition: all 2s;
+}
+.soundForm {
+  margin-top: 50px;
+}
+.soundForm input{
+  margin-top: 50px;
+  background-color: #171717;
+  color: #555;
+  width: 400px;
+  border: none;
+  border-bottom: 1px solid #222;
+  outline: none;
+  text-align: center;
+}
+.soundForm input:focus{
+    outline: none;
+}
+.soundForm input::-webkit-input-placeholder {
+   color: #555;
+   font: bold;
+}
+.sound-name {
+  font-size: 14px;
+  color: #555;
+  margin-top: 50px;
+  width: 300px;
+}
+.btn-custom {
+  margin: 30px;
+  color: #555;
+  background-color: #171717;
+  border: 1px solid #222;
+  outline: none;
+}
+.btn-custom:active {
+  color: orange;
+  border: 1px solid orange;
+}
+.form-control{
+  text-align: center;
+  margin: 0 auto;
+  width: 500px;
+  height: 50px;
+  font-size: 18px;
+  opacity: 1;
+  border-radius: 0;
+  border: 1px solid #171717;
+  border-top: 1px solid #222;
+  background-color: #171717;
+}
+.form-control::-webkit-input-placeholder {
+   color: #555;
+   font: bold;
+}
+.form-control:focus, .form-control:active{
+  border: 1px solid red;
+}
+.search-bar:hover .form-control{
+  height: 50px;
+  font-size: 18px;
+  opacity: 1;
+  transition: height 0.5s;
+  --webkit-transition: height 0.5s;
+  --moz-transition: height 0.5s;
+}
+.akai {
+  width: 200px;
+  float: left;
+  height: 170px;
+  background-color:#171717;
+  color: #222;
+  text-align: left;
+  font-size: 48px;
+  padding: 30px;
+  padding-left: 30px;
+  padding-bottom: 0px;
+  margin-bottom: 20px;
+}
+.logo {
+  height: 50px;
+}
+.wawa {
+  width: 300px;
+  float: left;
+  height: 170px;
+  background-color:#171717;
+  color: #222;
+  padding: 30px;
+  padding-left: 30px;
+  margin-bottom: 20px;
+}
+#waveform{
+  border: 3px solid #222;
+  width: 240px;
+  min-height: 135px;
+}
+.sound-library {
+  z-index: 999;
+  position: relative;
+  width: 500px;
+  height: 500px;
+  padding-bottom: 0px;
+  margin-top: 50px;
+  display: block;
+  background-color: #171717;
+  font-size: 24px;
+}
+.sound-library ul{
+  padding-left: 0;
+}
+.sound-item{
+  display: inline-block;
+  width: 80px;
+  height: 80px;
+  margin: 5px;
+  padding: 5px;
+  background-color: #222;
+  border: 3px solid #222;
+  border-radius: 8px;
+  box-shadow: 0 0 6px black;
+}
+.search-btn {
+  height: 50px;
+  padding: 15px;
+  font-size: 18px;
+}
+.search-bar {
+  background-color: #222;
+  color: #171717;
+  width: 500px;
+  text-align: center;
+}
+.sound-item:hover, .sound-item:active, .sound-item:focus {
+  border: 3px solid orange;
+  cursor: pointer;
+}
+.sound-item:active {
+  background-color: orange;
+}
+.sound-save {
+  text-align: center;
+  width: 600px;
+  display: block;
+  float:left;
+}
+.uploadHeader {
+  color: white;
+}
