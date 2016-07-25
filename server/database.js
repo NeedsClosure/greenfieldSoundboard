@@ -89,9 +89,7 @@ var saveToDB = function(name, res, next) {
       fse.remove('./uploads/' + name, function (err) {
         if (err) return console.error(err)
         console.log(file.filename + 'Written To remote DB!! and deleted from local directory');
-        //should change this response to the next() middleware so that appropriate front-end .then can be implemented
-        next("Congrats! Your sound is safe in our database.");
-        console.log('success!')
+        res.redirect('/lib');
       })
     })
 

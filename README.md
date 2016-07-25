@@ -1,13 +1,13 @@
-# Soundboard by NaNCats
+# Soundboard
 
-An interactive, online soundboard.  Built by the NaNCats: [Jim](https://github.com/logosghost), [Jear](https://github.com/Jearxj), [Ian](https://github.com/ian-culleton) and [Tim](https://github.com/ProductivePerson).
+An interactive, online soundboard. Bind your keyboard to any sounds using our extensive library or upload your own tunes.
 
 ## Installation
 
 The Soundboard uses React on Node.js, which means you will need to compile using Babel.  The server is written using Express.
 
-##Heroku: 
-https://invulnerable-baguette-95350.herokuapp.com/
+##Heroku:
+https://my-dj.herokuapp.com/
 ### Quick Start
 
 Clone from GitHub, then run

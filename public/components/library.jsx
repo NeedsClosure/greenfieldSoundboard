@@ -85,7 +85,7 @@ class Library extends React.Component {
                 <Search handleInputSearch = {this.getSound.bind(this)} />
               </div>
               <div className="menu">
-                <p>M</p>
+                <p className="tog">M</p>
                   <div className="center">
                        <form className="soundForm">
                         <input
@@ -97,8 +97,8 @@ class Library extends React.Component {
                       <button className="btn-custom" onClick={this.handleSubmit}>Save Sound</button>
                     </form>
                     <div className="center">
-                      <span className="title">FILE UPLOAD</span>
-                      <form encType="multipart/form-data" method="post" action='/soundUpload'>
+                      <span className="title">UPLOAD SOUND</span>
+                      <form id="fileupload" encType="multipart/form-data" method="post" action='/soundUpload'>
                         <input type="file" name="sound" id="file" className="inputfile" multiple accept='audio/*' data-multiple-caption="{count} files selected"/>
                         <label htmlFor="file">Choose a file</label>
                         <button className="btn-custom">Submit</button>

@@ -139,7 +139,7 @@ var Library = function (_React$Component) {
               { className: 'menu' },
               React.createElement(
                 'p',
-                null,
+                { className: 'tog' },
                 'M'
               ),
               React.createElement(
@@ -166,11 +166,11 @@ var Library = function (_React$Component) {
                   React.createElement(
                     'span',
                     { className: 'title' },
-                    'FILE UPLOAD'
+                    'UPLOAD SOUND'
                   ),
                   React.createElement(
                     'form',
-                    { encType: 'multipart/form-data', method: 'post', action: '/soundUpload' },
+                    { id: 'fileupload', encType: 'multipart/form-data', method: 'post', action: '/soundUpload' },
                     React.createElement('input', { type: 'file', name: 'sound', id: 'file', className: 'inputfile', multiple: true, accept: 'audio/*', 'data-multiple-caption': '{count} files selected' }),
                     React.createElement(
                       'label',

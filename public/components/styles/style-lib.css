@@ -23,6 +23,7 @@ h2 {
   text-decoration: none;
   color:orange;
 }
+
 .inputfile {
 	width: 0.1px;
 	height: 0.1px;
@@ -63,14 +64,17 @@ h2 {
   padding-top: 5px;
   padding-left: 10px;
   border-left: 1px solid #222;
+  cursor: pointer;
 }
 .menu:hover {
   color: orange;
   width: 500px;
-  left: 516px;
   transition: all 2s;
   --webkit-transition: all 2s;
   --moz-transition: all 2s;
+}
+.menu-show{
+  left: 516px;
 }
 .soundForm {
   margin-top: 50px;
